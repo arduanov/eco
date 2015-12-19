@@ -1,0 +1,12 @@
+RewriteEngine on
+
+# редирект на сайт АСВ
+#RewriteRule (.*) http://asv.org.ru/insurance/insurance_cases/1177/ [R=301,L]
+#Redirect / http://asv.org.ru/insurance/insurance_cases/1177/
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

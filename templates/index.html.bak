@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Экопромбанк</title>
+        <meta name="description" content="Банк осуществляет свою деятельность на российском финансовом рынке, предоставляя качественное банковское обслуживание корпоративным клиентам и частным лицам.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">Ваш браузер <strong>давно устарел</strong>. Пожалуйста <a href="http://browsehappy.com/">обновите браузер</a> или <a href="http://www.google.com/chromeframe/?redirect=true">установите Google Chrome Frame</a> для комфортной работы с этим сайтом.</p>
+        <![endif]-->
+        <div class="page-bg">
+            <div class="page-container">
+                <img src="/pics/i/logo.png" width="264" height="57" alt="Экопромбанк" class="print-logo">
+                <header class="page-header"><!-- dark-shadow-->
+                    <div class="company-info clearfix">
+                        <a href="#"><img src="/pics/i/logo.png" alt="Экопромбанк" class="company-logo" width="264" height="57"></a>
+                        <div class="column bank-client">
+                            <h6><i class="icon icon-bank-client"></i>Банк клиент</h6>
+                            <a href="#" target="_blank">Физическим лицам</a><br>
+                            <a href="#" target="_blank">Юридическим лицам</a>
+                        </div>
+                        <div class="column header-contacts">
+                            <h6><i class="icon icon-phone"></i>(342) 200-79-77</h6>
+                            Круглосуточный контакт центр<br>
+                            <a href="#">Часы работы</a> <a href="#">Банкоматы и терминалы</a>
+                        </div>
+                    </div><!-- .company-info -->
+                    <hr class="divider-strong">
+                    <div class="header-navigation clearfix">
+                        <nav class="menu-top-level" id="MainMenu">
+                            <ul>
+                                <li class="first-item active"><span data-rel="1">Физическим лицам</span></li>
+                                <li><a href="#" data-rel="2">Юридическим лицам</a></li>
+                                <li class="active"><a href="#" data-rel="3">О банке</a></li>
+                            </ul>
+                        </nav><!-- .menu-top-level -->
+                        <form class="search-form" action="#" method="GET">
+                            <label for="HeaderSearchString">Поиск по сайту</label>
+                            <input type="search" autocomplete="off" name="search[string]" id="HeaderSearchString">
+                            <button type="submit" class="search-submit" name="search[submit]">Поиск<i class="icon icon-search"></i></button>
+                        </form>
+                    </div><!-- .header-navigation -->
+                </header><!-- .page-header -->
+                <div class="float-menu" id="FloatMenu">
+                    <nav class="float-menu-container clearfix" data-rel="1">
+                        <div class="col first">
+                            <ul>
+                                <li class="active"><span>Расчетно-кассовое обслуживание в&nbsp;рублях</span></li>
+                                <li><a href="#">Расчетно-кассовое обслуживание в&nbsp;иностранной валюте</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Дистанционное банковское обслуживание</a></li>
+                                <li><a href="#">Система АПС-ПЕЧАТЬ</a></li>
+                                <li><a href="#">Депозиты</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Операции с&nbsp;ценными бумагами</a></li>
+                                <li><a href="#">Кредитование</a></li>
+                                <li><a href="#">Инвестирование</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Зарплатный проект</a></li>
+                                <li><a href="#">POS-терминалы (эквайринг)</a></li>
+                                <li><a href="#">Индивидуальные банковские сейфы</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav class="float-menu-container clearfix" data-rel="2">
+                        <div class="col first">
+                            <ul>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                                <li><a href="#">Пункт меню</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav class="float-menu-container clearfix" data-rel="3">
+                        <div class="col first">
+                            <ul>
+                                <li><a href="#">Расчетно-кассовое обслуживание в&nbsp;рублях</a></li>
+                                <li><a href="#">Расчетно-кассовое обслуживание в&nbsp;иностранной валюте</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Дистанционное банковское обслуживание</a></li>
+                                <li><a href="#">Система АПС-ПЕЧАТЬ</a></li>
+                                <li><a href="#">Депозиты</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Операции с&nbsp;ценными бумагами</a></li>
+                                <li><a href="#">Кредитование</a></li>
+                                <li><a href="#">Инвестирование</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a href="#">Зарплатный проект</a></li>
+                                <li><a href="#">POS-терминалы (эквайринг)</a></li>
+                                <li><a href="#">Индивидуальные банковские сейфы</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="bg"></div>
+                </div><!-- .float-menu -->
+
+
+                <div class="page-layout clearfix">
+                    <div class="breadcrumbs">
+                        <a href="#">Физическим лицам</a> — <a href="#">Банковские карты</a> — Помощник в выборе карты
+                    </div>
+                    <h1 class="headline">Заголовок страницы <a href="javascript:print()" class="icon icon-print">Распечатать</a></h1>
+                    <div class="page-content">
+                        <div class="pad-content">
+                            <p>ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; создан 1 июля 1992&nbsp;г. рядом крупнейших предприятий Перми и&nbsp;Пермской области и&nbsp;зарегистрирован Центральным Банком Российской Федерации в&nbsp;форме Акционерного Общества Закрытого Типа (АОЗТ) 17 августа 1992 года. Регистрационный номер&nbsp;&mdash; 2011.</p>
+                            <p>25 декабря 1992 года организационно-правовая форма &laquo;ЭКОПРОМБАНКА&raquo; была изменена на&nbsp;Акционерное Общество Открытого типа. 23 июня 1997 года наименование организационно-правовой формы банка приведено в&nbsp;соответствие с&nbsp;действующим законодательством РФ&nbsp;и&nbsp;определено как &laquo;Открытое Акционерное Общество&raquo; (ОАО).</p>
+                            <h2>Заголовок номер два</h2>
+                            <p>Офис ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; расположен в&nbsp;центральной деловой части Перми по&nbsp;адресу: 614000, г.&nbsp;Пермь, ул.&nbsp;Екатерининская, д. 120.</p>
+                            <blockquote>Сегодня ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo;&nbsp;&mdash; это современный универсальный кредитно-финансовый институт, входящий в&nbsp;тройку лидеров среди кредитных учреждений Пермского края. Собственные средства банка по&nbsp;состоянию на&nbsp;<span class="nowrap">01.01.2012 г.</span> составляют 3&nbsp;612,506&nbsp;млн.&nbsp;рублей.</blockquote>
+                            <p>Офис ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; расположен в&nbsp;центральной деловой части Перми по&nbsp;адресу: 614000, г.&nbsp;Пермь, ул.&nbsp;Екатерининская, д. 120.</p>
+                            <ul>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку </li>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять </li>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять банковские операции в&nbsp;рублях и&nbsp;иностранной валюте с&nbsp;юридическими лицами.</li>
+                            </ul>
+                            <ol>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку </li>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять
+                                    <ul>
+                                        <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку </li>
+                                        <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять </li>
+                                        <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять банковские операции в&nbsp;рублях и&nbsp;иностранной валюте с&nbsp;юридическими лицами.</li>
+                                    </ul>
+                                </li>
+                                <li>Лицензия &#8470;&nbsp;2011 от&nbsp;<span class="nowrap">29.02.2012</span> года, позволяющая банку осуществлять банковские операции в&nbsp;рублях и&nbsp;иностранной валюте с&nbsp;юридическими лицами.</li>
+                            </ol>
+                            <h3>Заголовок номер три</h3>
+                            <p>Банк осуществляет свою деятельность на&nbsp;российском финансовом рынке, предоставляя качественное банковское обслуживание корпоративным клиентам и&nbsp;частным лицам. Основные усилия банка направлены на&nbsp;достижение максимальной прибыли при проведении взвешенной политики в&nbsp;области управления рисками, соблюдении интересов клиентов, акционеров и&nbsp;персонала банка.</p>
+                            <p>
+                                <img src="/templates/pics/list.jpg" alt="Важная подпись к изображению" class="image-stretch">
+                                <span class="image-caption">Важная подпись к изображению</span>
+                            </p>
+                            <p>Банк осуществляет свою деятельность на&nbsp;российском финансовом рынке, предоставляя качественное банковское обслуживание корпоративным клиентам и&nbsp;частным лицам. Основные усилия банка направлены на&nbsp;достижение максимальной прибыли при проведении взвешенной политики в&nbsp;области управления рисками, соблюдении интересов клиентов, акционеров и&nbsp;персонала банка.</p>
+                            <p>ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; является участником государственной системы страхования вкладов и&nbsp;ассоциированным членом международных платежных систем VISA International и&nbsp;MasterCard WorldWide, членом Ассоциации Российских Банков (Москва), а&nbsp;также членом Пермского Банковского Союза (Пермь).</p>
+                            <table>
+                                <caption>Заголовок таблицы</caption>
+                                <tr>
+                                    <th>Получить карту</th>
+                                    <th>Получить карту</th>
+                                    <th>Получить карту</th>
+                                    <th>Получить карту</th>
+                                </tr>
+                                <tr>
+                                    <td>Моментально</td>
+                                    <td>Моментально</td>
+                                    <td>Моментально</td>
+                                    <td>Моментально</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                </tr>
+                            </table>
+                            <p>Банк осуществляет свою деятельность на&nbsp;российском финансовом рынке, предоставляя качественное банковское обслуживание корпоративным клиентам и&nbsp;частным лицам. Основные усилия банка направлены на&nbsp;достижение максимальной прибыли при проведении взвешенной политики в&nbsp;области управления рисками, соблюдении интересов клиентов, акционеров и&nbsp;персонала банка.</p>
+                            <img src="/templates/pics/list_small.jpg" width="300" height="171" alt="Подпись" class="image-left">
+                            <p>ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; является участником государственной системы страхования вкладов и&nbsp;ассоциированным членом международных платежных систем VISA International и&nbsp;MasterCard WorldWide, членом Ассоциации Российских Банков (Москва), а&nbsp;также членом Пермского Банковского Союза (Пермь).</p>
+                            <p>Банк осуществляет свою деятельность на&nbsp;российском финансовом рынке, предоставляя качественное банковское обслуживание корпоративным клиентам и&nbsp;частным лицам. Основные усилия банка направлены на&nbsp;достижение максимальной прибыли при проведении взвешенной политики в&nbsp;области управления рисками, соблюдении интересов клиентов, акционеров и&nbsp;персонала банка.</p>
+                            <img src="/templates/pics/list_small.jpg" width="300" height="171" alt="Подпись" class="image-right">
+                            <p>ОАО АКБ &laquo;ЭКОПРОМБАНК&raquo; является участником государственной системы страхования вкладов и&nbsp;ассоциированным членом международных платежных систем VISA International и&nbsp;MasterCard WorldWide, членом Ассоциации Российских Банков (Москва), а&nbsp;также членом Пермского Банковского Союза (Пермь).</p>
+                            <p><a href="/1.pdf" class="file">Лицензия № 2011 от 29.02.2012 года, позволяющая банку осуществлять банковские операции в рублях и иностранной валюте с юридическими лицами.</a></p>
+                            <p><a href="/1.doc" class="file">Лицензия № 2011 от 29.02.2012 года, позволяющая банку осуществлять банковские операции в рублях и иностранной валюте с юридическими лицами</a></p>
+                            <p><a href="/1.zip" class="file">Лицензия № 2011 от 29.02.2012 года, позволяющая банку осуществлять банковские операции в рублях и иностранной валюте с юридическими лицами</a></p>
+                            <p><a href="/1.xls" class="file">Лицензия № 2011 от 29.02.2012 года, позволяющая банку осуществлять банковские операции в рублях и иностранной валюте с юридическими лицами</a></p>
+                            <p><a href="/1.rar" class="file">Лицензия № 2011 от 29.02.2012 года, позволяющая банку осуществлять банковские операции в рублях и иностранной валюте с юридическими лицами</a></p>
+                        </div><!-- .pad-content -->
+                    </div><!-- .page-content -->
+                    <div class="page-aside">
+                        <div class="pad-aside">
+                            <nav class="menu-third-level aside-leaf-block">
+                                <ul>
+                                    <li class="first"><a href="#">Расчетно-кассовое обслуживание</a></li>
+                                    <li><a href="#">Дистанционный доступ к&nbsp;услугам</a></li>
+                                    <li><a href="#">Вклады</a></li>
+                                    <li class="active">
+                                        <a href="#">Банковские карты</a>
+                                        <ul>
+                                            <li><a href="#">Помощник в&nbsp;выборе карты</a></li>
+                                            <li><a href="#">Дебетовые карты</a></li>
+                                            <li class="active"><span href="#">Кредитные карты</span></li>
+                                            <li><a href="#">Оформление карты</a></li>
+                                            <li><a href="#">Услуги по&nbsp;картам</a></li>
+                                            <li><a href="#">Формы заявлений</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Кредитование</a></li>
+                                    <li><a href="#">Оплата услуг</a></li>
+                                    <li><a href="#">Денежные переводы</a></li>
+                                    <li><a href="#">Индивидуальные банковские сейфы</a></li>
+                                </ul>
+                            </nav><!-- .menu-third-level -->
+                            <div class="aside-contacts aside-leaf-block">
+                                <div class="block aside-phone">
+                                    <strong><i class="icon icon-phone"></i>(342) 200-79-77</strong><br>
+                                    Круглосуточный контакт центр
+                                </div>
+                                <div class="block main-office">
+                                    <h6>Главный офис</h6>
+                                    <a href="#">Пермь, Екатерининская, 120</a><br>
+                                    <strong><i class="icon icon-phone"></i>(342) 200-79-77</strong><br>
+                                    <a href="mailto:info@ecoprombank.ru">info@ecoprombank.ru</a><br>
+                                    <a href="#" class="onPage">Время работы</a>
+                                </div>
+                            </div> <!-- .aside-contacts -->
+                            <a class="feedback-button js-feedback-trigger" href="javascript:void(0)">Нам очень важно Ваше мнение&nbsp;&mdash; напишите нам!</a>
+                        </div><!-- .pad-aside -->
+                    </div><!-- .page-aside -->
+                </div><!-- .page-layout -->
+
+
+                <footer class="page-footer clearfix">
+                    <aside class="footer-aside">
+                        <div class="deposit-insurance">
+                            <img src="/pics/i/insurance.png" alt="Все вклады застрахованы" width="45" height="38">
+                            <strong>Вклады застрахованы</strong>
+                            Свидетельство №522<br>
+                            от 27.01.05
+                        </div>
+                    </aside>
+                    <div class="footer-content">
+                        <p>
+                            <strong>ОАО АКБ &laquo;Экопромбанк&raquo; Пермь, Екатерининская, 120<br>
+                           Служба поддержки клиентов <span class="nowrap">8-800-200-79-77</span> (звонок бесплатный)</strong>
+                            <a href="#" class="icon icon-vk">Мы Вконтакте</a>
+                            <a href="#" class="icon icon-fb">Мы в Facebook</a>
+                            <a href="#" class="icon icon-od">Мы в Одноклассниках</a>
+                            <a href="#" class="icon icon-tw">Мы в Твиттере</a>
+                        </p>
+                        <p>
+                            Лицо ответственное за&nbsp;информацию на&nbsp;сайте: Гилева Надежда Александровна, e-mail: <a href="mailto:info@ecoprombank.ru">info@ecoprombank.ru</a><br>
+                            Надзорный орган: Главное управление Центрального банка Российской Федерации по&nbsp;Пермскому краю<br>
+                            614000, Пермь, Ленина, 19. Телефон: <span class="nowrap">(342) 218-76-03</span>
+                        </p>
+                        <div id="reaktive">
+                            <a href="http://rktv.ru" target="_blank">Разработано в&nbsp;Реактиве</a>
+                            <div id="reaktive_block" style="display: none; ">
+                                <a href="http://rktv.ru/" target="_blank" title="Проект студии Реактив">
+                                    <img class="png24" width="274" height="131" style="width: 274px; height: 131px; left: 11px; top: 0px; display: block; left: 0px; " src="/pics/reaktive.png" alt="Cайт разработан студей Реактив в Перми">
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </footer> <!-- .page-footer -->
+            </div><!-- .page-container -->
+        </div><!-- .page-bg -->
+
+        <div class="overlay" id="Overlay"></div>
+        <div class="popup" id="feedback">
+            <div class="pad">
+                <form action="#" method="post" class="form">
+                    <h2 class="headline">Нам очень важно Ваше мнение.<br>Напишите нам!</h2>
+                    <div class="form-row">
+                        <label for="FeedbackFormName">Представьтесь, пожалуйста</label>
+                        <div class="inpC">
+                            <input type="text" name="feedbackName" class="inp" id="FeedbackFormName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="FeedbackFormContacts">Контактные данные</label>
+                        <div class="inpC">
+                            <input type="text" name="feedbackContacts" class="inp" id="FeedbackFormContacts">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="FeedbackFormMessage">Ваше сообщение</label>
+                        <div class="inpC">
+                            <textarea name="feedbackMessage" class="inp" id="FeedbackFormMessage"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row submit-row">
+                        <button type="submit" class="btn">Отправить</button>
+                    </div>
+                </form>
+                <div class="loading">
+                    <img src="/pics/i/loading.gif" width="128" height="128" alt="Подождите, мы отправляем ваше сообщение">
+                </div>
+                <div class="error">
+                    <h2>К сожалению произошла ошибка!<br> Попробуйте перезагрузить страницу или отправьте форму позже.</h2>
+                </div>
+                <div class="success">
+                    <h2>Спасибо за ваше сообщение!<br> Если это необходимо, мы свяжемся с вами в ближайшее время.</h2>
+                </div>
+                <a href="javascript:void(0)" class="close" title="Закрыть окно"><img src="/pics/i/close.png" alt="Закрыть"></a>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
