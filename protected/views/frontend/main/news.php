@@ -15,7 +15,7 @@
 			</div>
 			<h1 class="headline"><?=$title?></h1>
 			<div class="page-content">
-				<div class="pad-content">
+				<div class="pad-content    fff">
 					<? if(!empty($year_pagination)): ?>
 						<nav class="section-navigator">
 							<?=$year_pagination?>
@@ -29,7 +29,7 @@
 					?>
 						<div class="lenta-item <?=($news_count==$i)?'last':''?>">
 							<p class="date"><?=Yii::app()->dateFormatter->format('dd MMMM yyyy', $news->date)?></p>
-							<h3><a href="<?=$pages->make_url($doc_id_last)?>show_<?=$news->id?>/?p=<?=$page_num?><?=(!empty($get_year))?'&y='.$get_year:''?>"><?=$news->title?></a></h3>
+							<h3><a href="<?=$pages->make_url($doc_id_last)?>show_<?=$news->id?>/"><?=$news->title?></a></h3>
 							<p><?=nl2br($news->short)?></p>
 						</div>
 					<? endforeach; ?>

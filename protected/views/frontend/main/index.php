@@ -80,7 +80,7 @@
                                 <p class="date"><?=Yii::app()->dateFormatter->format('dd MMMM yyyy', $news->date);?></p>
                                 <h3><a href="<?=$pages->make_url($news_common_doc_id)?>show_<?=$news->id?>/"><?=$news->title?></a></h3>
                                 <p><?=nl2br($news->short)?></p><br>
-                                <?if($i==2):?><p><a href="<?=$pages->make_url($news_common_doc_id)?>">Все новости</a></p><?endif;?>
+                                <?if($i==count($news_common_list)):?><p><a href="<?=$pages->make_url($news_common_doc_id)?>">Все новости</a></p><?endif;?>
                             </div>
                             <?php
                             endforeach;
