@@ -70,6 +70,7 @@
 					</div>
 -->
 					<div class="lenta">
+
                         <?
                         $i=0;
                         if(count($news_common_list)):
@@ -77,6 +78,7 @@
                             ?>
                             <div class="pad">
                                 <?$i++?>
+	                            <?=$i!==2?'':'[[[seo]]]'?>
                                 <p class="date"><?=Yii::app()->dateFormatter->format('dd MMMM yyyy', $news->date);?></p>
                                 <h3><a href="<?=$pages->make_url($news_common_doc_id)?>show_<?=$news->id?>/"><?=$news->title?></a></h3>
                                 <p><?=nl2br($news->short)?></p><br>

@@ -48,7 +48,4 @@
 <!--                        </div>-->
 
                     </div>
-                </footer> <!-- .page-footer
-                <?
-                //$this->renderPartial('debuginfo');
-                ?>
+                </footer>

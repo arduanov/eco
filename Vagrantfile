@@ -33,7 +33,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	# Create a private network, which allows host-only access to the machine
 	# using a specific IP.
 	config.vm.network :private_network, ip: "192.168.24.19"
-	config.vm.hostname = "phpecoprom.dev"
+	config.vm.hostname = "ecoprom.dev"
 
 	# speedup filesystem
 	config.vm.synced_folder "./", "/var/www/html", :mount_options => ['nolock,vers=3,udp,noatime,actimeo=1'], :export_options => ['async,insecure,no_subtree_check,no_acl,no_root_squash'], :nfs => true

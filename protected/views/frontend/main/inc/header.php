@@ -14,13 +14,15 @@
 	<?else:?>
 		<img src="/pics/i/logo.png" alt="Экопромбанк" class="company-logo" width="264" height="57">
 	<?endif;?>
-	<!-- 
-      <div class="column header-contacts">
-		<h6><i class="icon icon-phone"></i>8&nbsp;800&nbsp;200&nbsp;79&nbsp;77</h6>
-		Круглосуточный контакт-центр<br>
-		<a href="/about/contacts/#worktime">Часы работы</a> <a href="/about/locate/#atms">Банкоматы и терминалы</a>
-	</div>
--->
+		<div class="" style="margin-top: 31px;    float: left;margin-left: 20px">
+			Лицензия отозвана 	<a href="/about/press/news/show_350/">Приказом Банка России от 18.08.2014 № ОД-2121</a>
+			</div>
+<!--      <div class="column header-contacts">-->
+<!--		<h6><i class="icon icon-phone"></i>8&nbsp;800&nbsp;200&nbsp;79&nbsp;77</h6>-->
+<!--		Круглосуточный контакт-центр<br>-->
+<!--		<a href="/about/contacts/#worktime">Часы работы</a> <a href="/about/locate/#atms">Банкоматы и терминалы</a>-->
+<!--	</div>-->
+
 	</div><!-- .company-info -->
 	<hr class="divider-strong">
 	<div class="header-navigation clearfix">
