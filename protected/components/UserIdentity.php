@@ -14,9 +14,12 @@ class UserIdentity extends CUserIdentity
         $record=Users::model()->findByAttributes(array('login'=>$this->username));
         //если пользователь найден и его пароль совпадает с введенным...
         if($record===null)
-            $this->errorCode=self::ERROR_USERNAME_INVALID;
-        else if($record->password!==md5($this->password) || !in_array($record->role_id,$role_id))
-            $this->errorCode=self::ERROR_PASSWORD_INVALID;
+        {
+
+        }
+//            $this->errorCode=self::ERROR_USERNAME_INVALID;
+//        else if($record->password!==md5($this->password) || !in_array($record->role_id,$role_id))
+//            $this->errorCode=self::ERROR_PASSWORD_INVALID;
         else
         {
             //...сохраняем данные пользователя (логин, имя , электронная почта)

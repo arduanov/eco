@@ -4,6 +4,7 @@
 .idea
 assets
 
+.vagrant
 mirror
 
 # OS generated files #
